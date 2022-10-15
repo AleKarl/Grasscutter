@@ -228,15 +228,20 @@ public class ConfigContainer {
         public JoinOptions.Mail welcomeMail = new JoinOptions.Mail();
 
         public static class Mail {
-            public String title = "Welcome to Grasscutter!";
+            public String title = "AleKarl V3.1 Release made by AleKarl";
             public String content = """
-                    Hi there!\r
-                    First of all, welcome to Grasscutter. If you have any issues, please let us know so that Lawnmower can help you! \r
-                    \r
-                    Check out our:\r
-                    <type="browser" text="Discord" href="https://discord.gg/T5vZU6UyeG"/>
+                  嘿!请看这里!\r
+                  欢迎使用原神割草机. \r
+                  原神割草机完全免费，禁止倒卖咸鱼 \r
+                  当前版本version-1.31.01 >>> 正式版本-3.1 \r
+                  最后更新时间-[10/16/2022] \r
+                  Author:AleKarl
+                  Fork项目贡献者 AleKarl                                         
+                  请加入我们的官方QQ群77370008 \r
+                  或者直接加入我们的QQ频道 \r
+                  <type="browser" text="QQ频道" href="https://pd.qq.com/s/gb567r"/>
                     """;
-            public String sender = "Lawnmower";
+            public String sender = "AleKarl|艾尔";
             public emu.grasscutter.game.mail.Mail.MailItem[] items = {
                     new emu.grasscutter.game.mail.Mail.MailItem(13509, 1, 1),
                     new emu.grasscutter.game.mail.Mail.MailItem(201, 99999, 1)
@@ -250,8 +255,8 @@ public class ConfigContainer {
         public int adventureRank = 1;
         public int worldLevel = 0;
 
-        public String nickName = "Server";
-        public String signature = "Welcome to Grasscutter!";
+        public String nickName = "AleKarl|艾尔";
+        public String signature = "榈庭多落叶，慨然知已秋.满载一船秋色，平铺十里湖光.";
     }
 
     public static class Files {
