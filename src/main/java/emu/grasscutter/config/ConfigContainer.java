@@ -256,7 +256,7 @@ public class ConfigContainer {
         public int worldLevel = 0;
 
         public String nickName = "AleKarl|艾尔";
-        public String signature = "榈庭多落叶，慨然知已秋.满载一船秋色，平铺十里湖光.";
+        public String signature = "榈庭多落叶，慨然知已秋.";
     }
 
     public static class Files {
