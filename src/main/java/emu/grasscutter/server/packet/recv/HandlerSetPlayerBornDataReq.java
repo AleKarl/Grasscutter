@@ -73,10 +73,10 @@ public class HandlerSetPlayerBornDataReq extends PacketHandler {
         // Default mail
         var welcomeMail = GAME_INFO.joinOptions.welcomeMail;
         MailBuilder mailBuilder = new MailBuilder(player.getUid(), new Mail());
-        mailBuilder.mail.mailContent.title = welcomeMail.title;
-        mailBuilder.mail.mailContent.sender = welcomeMail.sender;
+        mailBuilder.mail.mailContent.title = "欢迎使用AleKarl V3.1 release!";
+        mailBuilder.mail.mailContent.sender = "AleKarl";
         // Please credit Grasscutter if changing something here. We don't condone commercial use of the project.
-        mailBuilder.mail.mailContent.content = welcomeMail.content + "\n<type=\"browser\" text=\"GitHub\" href=\"https://github.com/Melledy/Grasscutter\"/>";
+        mailBuilder.mail.mailContent.content = welcomeMail.content + "\n<type=\"browser\" text=\"AleKarl的QQ频道\" href=\"https://pd.qq.com/s/gb567r\"/>";
         mailBuilder.mail.itemList.addAll(Arrays.asList(welcomeMail.items));
         mailBuilder.mail.importance = 1;
         player.sendMail(mailBuilder.mail);
