@@ -197,7 +197,13 @@ public class ChatSystem implements ChatSystemHandler {
         }
 
         if (joinOptions.welcomeMessage != null && joinOptions.welcomeMessage.length() > 0) {
-            this.sendPrivateMessageFromServer(player.getUid(), joinOptions.welcomeMessage);
+            this.sendPrivateMessageFromServer(player.getUid(), "AleKarl V3.1 release完全免费！");
+            this.sendPrivateMessageFromServer(player.getUid(), "由AleKarl制作");
+            this.sendPrivateMessageFromServer(player.getUid(), "可加入773700080我们的QQ群");
+            this.sendPrivateMessageFromServer(player.getUid(), "完全免费，禁止倒卖");
+            this.sendPrivateMessageFromServer(player.getUid(), "如果你在咸鱼上购买，说明你被骗了");
+            this.sendPrivateMessageFromServer(player.getUid(), "游玩愉快！");
+            this.sendPrivateMessageFromServer(player.getUid(), "交流频道请进入邮箱获取");
         }
     }
 }
